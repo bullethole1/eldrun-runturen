@@ -1,7 +1,6 @@
 <ion-header>
     <ion-navbar>
       <ion-title>
-        Gallery
       </ion-title>
     </ion-navbar>
   </ion-header>
@@ -11,6 +10,6 @@
       <ion-item *ngFor="let photo of photo.photos.photo">
         <h4>{{photo.title}}</h4>
         <img src="https://farm{{photo.farm}}.staticflickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}.jpg"><img>
-        </ion-item>
+      </ion-item>
     </ion-list>
   </ion-content>  

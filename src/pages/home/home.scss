@@ -1,9 +1,67 @@
 .background{
-    background-image: url('../assets/imgs/bergadetalj2.jpg');
+    // background-image: url('../assets/imgs/bergadetalj2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .text {
     background-color: whitesmoke;
+}
+
+.headContainerRef
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subContainerRef
+{
+    width: 200px;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mapRef
+{
+    cursor: pointer;
+    color: #ffff;
+    border: solid #ffff 1px;
+    -webkit-border-radius: 15px;
+    background: #3bafa9;
+    padding: 22px 0 22px 0;
+    margin: 25px 0 25px 0;
+}
+
+.fa
+{
+    font-size: 40px !important;
+}
+
+.galleryRef
+{
+    cursor: pointer;
+    color: #ffff;
+    border: solid #ffff 1px;
+    -webkit-border-radius: 15px;
+    background: #3bafa9;
+    padding: 22px 0 22px 0;
+    margin: 25px 0 25px 0;
+}
+
+.aboutRef
+{
+    cursor: pointer;
+    color: #ffff;
+    border: solid #ffff 1px;
+    -webkit-border-radius: 15px;
+    background: #3bafa9;
+    padding: 22px 0 22px 0;
+    margin: 25px 0 25px 0;
+}
+.footerText
+{
+    color: #17242d;
 }

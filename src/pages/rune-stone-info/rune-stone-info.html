@@ -7,18 +7,19 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>RuneStoneInfoPage</ion-title>
+    <ion-title></ion-title>
   </ion-navbar>
 
 </ion-header>
-
-
 <ion-content padding>
-  <h1>Name</h1>
-  <div class="imgSection">
-    <img src="{{this.navParams.get('img')}}">
+  <h1 id="headId">{{this.navParams.get('name')}}</h1>
+  <div class="controlText">
+    Visa information
   </div>
-  <div class="textSection">
+  <div class="textSection" style="display: none">
       {{this.navParams.get('text')}}
-  </div>
+      </div>
+    <div class="imgSection" *ngFor="let Image of this.navParams.get('img')">
+      <img src="{{Image}}">
+    </div>
 </ion-content>

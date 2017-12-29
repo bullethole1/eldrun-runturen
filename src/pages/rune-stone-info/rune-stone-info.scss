@@ -1,3 +1,34 @@
 page-rune-stone-info {
+}
 
+#headId{
+    margin: 10px 5px 10px 5px;
+}
+.scroll-content
+{
+    padding: 0px !important;
+}
+
+.imgSection{
+    display: grid;
+}
+
+.imgSection img{
+    border-bottom: solid white 0.5px;
+    border-top: solid white 0.5px;
+}
+.controlText{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.3em;
+    margin: 10px 5px 10px 5px;
+    cursor: pointer;
+}
+
+.textSection{
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 5px 10px 5px;
+    border: 0.5px solid #b5acac;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.87);
 }

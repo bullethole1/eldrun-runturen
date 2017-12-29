@@ -1,5 +1,6 @@
 import { Component, Injectable } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import * as $ from 'jquery';
 
 /**
  * Generated class for the RuneStoneInfoPage page.
@@ -22,13 +23,19 @@ export class RuneStoneInfoPage {
 
   ionViewDidLoad() {
     this.infoPage();
+    this.jsFunctions();
   }
 
   infoPage() {
     let imgRef = this.navParams.get("img");
-    // alert(imgRef);
     console.log(imgRef);
     let textRef = this.navParams.get("text");
   }
-
+  
+  jsFunctions()
+  {
+    $(".controlText").click(function(){
+      $(".textSection").toggle("slow");
+  });
+  }
 }
