@@ -1,0 +1,25 @@
+page-gallery {
+    img
+    {
+        width: 100%;
+    }
+    .label-md
+    {
+        margin: 0px;
+    }
+    .item-md
+    {
+        padding: 0px;
+    }
+    .list-md .item-md .item-inner
+    {
+        padding: 0px;
+        border: 0px;
+    }
+    .label-md h4
+    {
+        text-align: center;
+        font-size: 1.9rem;
+        margin: 10px 0 10px 0;
+    }
+}
